@@ -117,8 +117,11 @@ class spiral
                 {
                     cout<< matrix[row_end][j]<<" ";
                 }
-                row_end--;
+               
                 }
+                 row_end--;
+
+                
                 // up 
 
 
@@ -127,8 +130,10 @@ class spiral
                 {
                     cout<<matrix[i][col_start]<<" ";
                 }
-                col_start++;
+                
                  }
+
+                col_start++;
             }
 
 
