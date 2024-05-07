@@ -111,18 +111,24 @@ class spiral
                 col_end--;
 
                 // left 
+            if (col_end >= col_start)
+                {
                 for (int j= col_end;j>=col_start;j--)
                 {
                     cout<< matrix[row_end][j]<<" ";
                 }
                 row_end--;
-
+                }
                 // up 
+
+
+                 if (row_end >= row_start){
                 for ( int i=row_end;i>= row_start;i--)
                 {
                     cout<<matrix[i][col_start]<<" ";
                 }
                 col_start++;
+                 }
             }
 
 
